@@ -1,4 +1,5 @@
-name: Chromatic
+name: "Chromatic"
+
 on: push
 
 jobs:
@@ -11,11 +12,9 @@ jobs:
           fetch-depth: 0
 
       - name: Install dependencies
-        # ⚠️ Pick one of these, matching the package manager for your project
         run: npm ci
 
       - name: Run Chromatic
         uses: chromaui/action@latest
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          exitZeroOnChanges: true # 👈 Option to prevent the workflow from failing
