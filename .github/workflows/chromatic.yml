@@ -1,4 +1,3 @@
-
 name: "Chromatic"
 
 on: push
@@ -22,7 +21,5 @@ jobs:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           exitZeroOnChanges: true # 👈 Option to prevent the workflow from failing
 
-        
-        name: Publish to Chromatic
-                uses: chromaui/action@v1
-            
+      - name: Publish to Chromatic
+        uses: chromaui/action@v1
