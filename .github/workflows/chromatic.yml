@@ -1,4 +1,5 @@
-  on: push
+name: Chromatic
+on: push
 
 jobs:
   chromatic:
