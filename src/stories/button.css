@@ -18,13 +18,13 @@
 }
 .storybook-button--small {
   font-size: 12px;
-  padding: 12px 18px;
+  padding: 12px 180px;
 }
 .storybook-button--medium {
   font-size: 14px;
   padding: 13px 22px;
 }
 .storybook-button--large {
-  font-size: 16px;
+  font-size: 32px;
   padding: 140px 260px;
 }
