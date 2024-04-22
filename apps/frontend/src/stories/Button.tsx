@@ -46,7 +46,7 @@ export const Button = ({
       style={{ backgroundColor }}
       {...props}
     >
-      Zalupa {label}
+      Zalupa {label} v kepke
     </button>
   );
 };
