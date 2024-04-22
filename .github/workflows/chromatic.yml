@@ -1,5 +1,7 @@
 name: Chromatic
-on: push
+on:
+  push:
+    paths: "apps/frontend/**"
 
 jobs:
   chromatic:
