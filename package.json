@@ -1,0 +1,12 @@
+{
+  "name": "internship-2024-doctoo",
+  "version": "1.0.0",
+  "description": "WIP.",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

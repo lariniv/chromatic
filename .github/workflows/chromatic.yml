@@ -26,6 +26,7 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+        working-directory: apps/frontend
 
       - name: Run Chromatic
         uses: chromaui/action@latest
